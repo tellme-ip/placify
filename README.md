@@ -1,1 +1,3 @@
-# placify
+# mixr
+
+A Web Platform app powered by OpenApp
