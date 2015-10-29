@@ -1,0 +1,24 @@
+{
+  "@context": { "@vocab": "http://purl.org/openapp/", "apps": "http://purl.org/openapp/apps/", "rdfs": "http://www.w3.org/2000/01/rdf-schema#" },
+  "@type": "Application",
+  "rdfs:label": [
+    { "@value": "Mixer", "@language": "en" }
+  ],
+  "rdfs:comment": [
+    { "@value": "Modify this description in the openapp.jsonld file", "@language": "en" }
+  ],
+  "stylesheet": [
+    { "@id": "apps:org.openapplication.bootstrap/bootstrap" }
+  ],
+  "script": [
+    { "@id": "main.js", "scope": "main" },
+    { "@id": "test.js", "scope": "test" }
+  ],
+  "stylesheet": [
+    { "@id": "main.css", "scope": "main" },
+    { "@id": "test.css", "scope": "test" }
+  ],
+  "depends": [
+    { "name": "org.openapplication.bootstrap", "scope": "main", "import": "stylesheet" }
+  ]
+}

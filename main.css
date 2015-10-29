@@ -1,0 +1,23 @@
+/**
+ * Stylesheet to be used with the main entry point of the application.
+ * This file will be interpreted (preprocessed) as Less which is a superset of
+ *  CSS (see http://lesscss.org/). If you like, you can rename this file
+ *  main.less.
+ */
+
+/* Some info to help you get started:
+ * Include dependencies by importing them below using their global names (in
+ *  the form "@{developer_application}/file_path_with_.css_or_.less").
+ * In the global name, periods must be replaced with underlines.
+ * The dependencies will be mapped to the specific versions that have been
+ *  added to the workspace of this application/library (so you need to
+ *  remember to actually add them to the workspace as well).
+ */
+/*@import (less) "@{org_openapplication_bootstrap}/less/bootstrap.less";*/
+@import (less) "@{org_openapplication_fontawesome}/less/font-awesome.less";
+
+/* Begin writing CSS/Less here! */
+
+body {
+  padding: 2em;
+}
